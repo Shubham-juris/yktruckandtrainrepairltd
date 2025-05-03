@@ -1,4 +1,8 @@
 import React from 'react';
+import LeadMechanic from "../../assets/MeetOurTeam/LeadMechanic.jpg"
+import TrainSystemsEngineer from "../../assets/MeetOurTeam/TrainSystemsEngineer.jpg"
+import CustomerRelations from "../../assets/MeetOurTeam/CustomerRelations.jpg"
+import ElectricalSpecialist from "../../assets/MeetOurTeam/ElectricalSpecialist.jpg"
 
 const TeamMember = ({ name, role, image }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -30,22 +34,22 @@ const Team = () => {
     {
       name: "John Smith",
       role: "Lead Mechanic",
-      image: "/api/placeholder/400/500"
+      image: LeadMechanic
     },
     {
       name: "Emily Johnson",
       role: "Train Systems Engineer",
-      image: "/api/placeholder/400/500"
+      image: TrainSystemsEngineer
     },
     {
       name: "Michael Davis",
       role: "Electrical Specialist",
-      image: "/api/placeholder/400/500"
+      image: ElectricalSpecialist
     },
     {
       name: "Sarah Wilson",
       role: "Customer Relations",
-      image: "/api/placeholder/400/500"
+      image: CustomerRelations
     }
   ];
 

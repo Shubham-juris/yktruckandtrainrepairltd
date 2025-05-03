@@ -9,10 +9,12 @@ const ServiceCard = ({ icon: Icon, title, description }) => (
     data-aos="fade-up"
     data-aos-duration="1000"
   >
-    <div className="bg-red-100 p-3 rounded-full inline-block mb-4">
-      <Icon className="text-red-500" size={24} />
-    </div>
-    <h3 className="text-xl font-semibold mb-3">{title}</h3>
+    <div className="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+  <Icon className="text-red-500" size={28} />
+</div>
+
+<h3 className="text-xl font-semibold mb-3 text-center">{title}</h3>
+
     <p className="text-gray-600">{description}</p>
   </div>
 );
@@ -44,7 +46,7 @@ const Services = () => {
       description: "Complete climate control system repairs to keep you comfortable all year."
     },
     {
-      icon: Gauge, // Replaced Speedometer with Gauge
+      icon: Gauge,
       title: "Brake Services",
       description: "Professional brake inspection, repair, and replacement for optimal safety."
     },

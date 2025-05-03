@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <Wrench className="text-red-500 mr-2" size={24} />
-              <h2 className="text-xl font-bold">MechaniX</h2>
+              <h2 className="text-xl font-bold">yktruckandtrainrepairltd</h2>
             </div>
             <p className="text-gray-400 mb-4">
               Professional car and train repair services with over 20 years of experience. Quality work guaranteed.
@@ -57,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="text-red-500 mr-2 mt-1" />
-                <span className="text-gray-400">123 Repair Street, Mechanic City, MC 12345</span>
+                <span className="text-gray-400">123 Repair Street, 123 City, MC 12345</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="text-red-500 mr-2" />
@@ -65,14 +65,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="text-red-500 mr-2" />
-                <span className="text-gray-400">info@mechanix.com</span>
+                <span className="text-gray-400">info@yktruckandtrainrepairltd.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© {new Date().getFullYear()} MechaniX. All rights reserved.</p>
+          <p className="text-gray-400">© {new Date().getFullYear()} yktruckandtrainrepairltd. All rights reserved.</p>
         </div>
       </div>
     </footer>

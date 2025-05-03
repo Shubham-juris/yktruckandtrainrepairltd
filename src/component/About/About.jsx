@@ -18,15 +18,15 @@ const About = () => {
           <div className="lg:w-1/2">
             <img 
               src="/api/placeholder/600/400" 
-              alt="About MechaniX" 
+              alt="About  yktruckandtrainrepair" 
               className="rounded-lg shadow-xl" 
             />
           </div>
           
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">About MechaniX</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">About yktruckandtrainrepair</h2>
             <p className="text-gray-600 mb-6">
-              Founded in 2000, MechaniX has grown to become the leading car and train repair service provider in the region. Our commitment to quality, reliability, and customer satisfaction has earned us a reputation for excellence in the industry.
+              Founded in 2000,yktruckandtrainrepair has grown to become the leading car and train repair service provider in the region. Our commitment to quality, reliability, and customer satisfaction has earned us a reputation for excellence in the industry.
             </p>
             <p className="text-gray-600 mb-6">
               Our team of certified mechanics and train engineers brings decades of combined experience to every repair job, ensuring your vehicles receive the best possible care and attention.
