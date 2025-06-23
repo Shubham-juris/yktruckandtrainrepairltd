@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/image/carRepair.jpg";
+import image from "../../assets/image/CarRepair.jpg";
 import image2 from "../../assets/image/trainRepair.jpg";
 import image3 from "../../assets/image/dyg.jpg";
 import image4 from "../../assets/image/trainRepair.jpg";
